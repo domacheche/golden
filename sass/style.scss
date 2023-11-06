@@ -1,0 +1,171 @@
+body {
+    background-color: white;
+}
+
+.navbar .navbar-brand {
+    color: #f1c40f;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 270px;
+}
+
+.navbar div {
+    display: inline-block;
+   
+}
+
+.navbar .nav-items {
+    padding-right: 180px;
+    font-size: 14px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.page-top {
+    background-image: url("https://i.postimg.cc/tTwC65XJ/pexels-aleks-magnusson-3892372.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+
+}
+
+.splash {
+    min-height: 500px;
+    display: flex;
+  
+}
+
+.splash-inner {
+    text-align: center;
+    color: white;
+    display: block;
+    height: 100%; 
+    margin: auto;
+    max-width: 70%;
+
+}
+
+.splash-inner h1 {
+    font-size: 60px;
+}
+
+.page-title {
+    font-size: 40px;
+}
+
+
+header .btn {
+    color: white;
+}
+
+/* Services */ 
+
+.services-section {
+    background-color: white;
+    padding-bottom: 130px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 0 0 33.333%;
+    position: relative;
+    padding: 1px;
+    text-align: center;
+}
+
+.section-title {
+    width: 100%;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.service-name {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section-subtitle {
+    color: grey;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.fa-solid {
+    font-size: 30px;
+    background: white;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #f1c40f;
+    border-radius: 50%;
+    vertical-align: middle;
+    display: inline-flex;
+    border: 3px solid #f1c40f;
+}
+
+.box p {
+    color: grey;
+    font-size: 15px;
+    
+}
+
+.box i {
+    display: inline-flex;  
+    justify-content: center;
+}
+
+/* Portfolio */
+
+.portfolio {
+    background-color: #ecf0f1;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer ul {
+    font-size: 0;
+    display: inline-flex;  
+}
+
+
+footer li {
+    line-height: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    background: black;
+    border-radius: 50%;
+}
+
+footer i {
+    font-size: 30px;
+    color: #fff;
+    margin: 0 auto;
+    vertical-align: middle;
+    display: inline-flex;
+}
+
+footer {
+    background-color: white;
+}
