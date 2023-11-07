@@ -132,6 +132,11 @@ header .btn {
     background-color: #ecf0f1;
 }
 
+.portfolio img {
+    object-fit: contain;
+    width:100%
+}
+
 /* Footer */
 
 footer {
